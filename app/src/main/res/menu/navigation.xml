@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:android="http://schemas.android.com/apk/res/android">
 
 
-    <item
-        android:id="@+id/librosBtn"
-        android:title="@string/librosMenu"
-        android:visible="true"/>
-    <item
-        android:id="@+id/salirBtn"
-        android:title="@string/salirMenu"
-        android:visible="true"/>
+<item
+    android:id="@+id/librosBtn"
+    android:icon="@drawable/ic_dashboard_black_24dp"
+    android:orderInCategory="100"
+    android:title="@string/librosMenu"
+    android:visible="true"
+    app:showAsAction="never" />
+<item
+    android:id="@+id/salirBtn"
+    android:icon="@drawable/ic_notifications_black_24dp"
+    android:orderInCategory="101"
+    android:title="@string/salirMenu"
+    android:visible="true"
+    app:showAsAction="never" />
 
 </menu>
 
