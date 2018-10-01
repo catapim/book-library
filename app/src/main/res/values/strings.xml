@@ -5,4 +5,6 @@
     <string name="title_notifications">Notifications</string>
    <string name="txtBienvenida">Ver libros</string>
     <string name="resumen2T">La Compañía se ha disuelto y sus integrantes emprenden caminos separados. Frodo y Sam continúan solos su viaje a lo largo del gran río Anduin, perseguidos por la sombra de un ser extraño que también quiere el Anillo.  Los hobbits se enfrentan al horror, toman decisiones, mientras hombres, elfos y enanos se preparan para la batalla final con las fuerzas del Señor del Mal.</string>
+    <string name="librosMenu">Libro</string>
+    <string name="salirMenu">Salir</string>
 </resources>

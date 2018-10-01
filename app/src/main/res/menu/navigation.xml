@@ -3,22 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <ImageView
-        android:id="@+id/rectimage3"
-        android:layout_width="408dp"
-        android:layout_height="90dp"
-        android:layout_marginTop="1dp"
-        android:background="@color/sky"
-        android:contentDescription="fondo azul"
-        android:text="@string/txtBienvenida"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        >
-    </ImageView>
-    <item android:title="Item" />
-    <group
-        android:checkableBehavior="all"
-        android:enabled="true"
-        android:visible="true" />
+
+    <item
+        android:id="@+id/librosBtn"
+        android:title="@string/librosMenu"
+        android:visible="true"/>
+    <item
+        android:id="@+id/salirBtn"
+        android:title="@string/salirMenu"
+        android:visible="true"/>
+
 </menu>
+
