@@ -9,60 +9,17 @@
 
     <ImageView
         android:id="@+id/rectimage"
-        android:layout_height="90dp"
         android:layout_width="400dp"
-        android:background="@color/sky">
-    </ImageView>
+        android:layout_height="90dp"
+        android:background="@color/sky"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"></ImageView>
 
     <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
         <solid android:color="@android:color/transparent"/>
         <corners android:radius="12px"/>
         <stroke  android:width="2dip" android:color="#ffcccc"/>
     </shape>
-
-    <TextView
-        android:id="@+id/staticTitleBook"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:lineSpacingExtra="14sp"
-        android:text="Título"
-        android:textAllCaps="false"
-        android:textStyle="italic"
-        tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="129dp" />
-
-    <TextView
-        android:id="@+id/staticCode"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:lineSpacingExtra="14sp"
-        android:text="Código"
-        android:textAllCaps="false"
-        android:textStyle="italic"
-        tools:layout_editor_absoluteX="22dp"
-        tools:layout_editor_absoluteY="414dp" />
-
-    <TextView
-        android:id="@+id/staticResum"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:lineSpacingExtra="14sp"
-        android:text="Resumen"
-        android:textAllCaps="false"
-        android:textStyle="italic"
-        tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="293dp" />
-
-    <TextView
-        android:id="@+id/staticAuthor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:lineSpacingExtra="14sp"
-        android:text="Autor/a"
-        android:textAllCaps="false"
-        android:textStyle="italic"
-        tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="208dp" />
 
     <TextView
         android:id="@+id/staticTitle"
@@ -76,7 +33,7 @@
         android:layout_marginBottom="440dp"
         android:text="Información sobre el libro"
         android:textAllCaps="true"
-        android:textColor="#666666"
+        android:textColor="@color/black"
         android:textSize="18sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -86,47 +43,96 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
+        android:id="@+id/staticTitleBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="14sp"
+        android:text="Título"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <TextView
+        android:id="@+id/staticCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="14sp"
+        android:text="Código  ISBN"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <TextView
+        android:id="@+id/staticResum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="14sp"
+        android:text="Resumen"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <TextView
+        android:id="@+id/staticAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="14sp"
+        android:text="Autor/a"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="172dp" />
+
+
+    <TextView
         android:id="@+id/bookName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textColor="#555555"
-        android:textSize="18sp"
+        android:text="El Señor de los Anillos: Las dos torres"
+        android:textColor="@color/darkgrey"
+        android:textSize="14sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="156dp" />
+        tools:layout_editor_absoluteY="134dp" />
 
     <TextView
         android:id="@+id/bookResum"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textColor="#555555"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="334dp" />
+        android:layout_width="345dp"
+        android:layout_height="141dp"
+        android:text="La Compañía se ha disuelto y sus integrantes emprenden caminos separados. Frodo y Sam continúan solos su viaje a lo largo del gran río Anduin, perseguidos por la sombra de un ser extraño que también quiere el Anillo.  Los hobbits se enfrentan al horror, toman decisiones, mientras hombres, elfos y enanos se preparan para la batalla final con las fuerzas del Señor del Mal."
+        android:textColor="@color/darkgrey"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="265dp" />
 
     <TextView
         android:id="@+id/bookCode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textColor="#555555"
-        android:textSize="18sp"
+        android:text="956247707X"
+        android:textColor="@color/darkgrey"
+        android:textSize="14sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="441dp" />
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="448dp" />
 
     <TextView
         android:id="@+id/bookAuthor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textColor="#555555"
-        android:textSize="18sp"
+        android:text="J. R. R. Tolkien"
+        android:textColor="@color/darkgrey"
+        android:textSize="14sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="240dp" />
+        tools:layout_editor_absoluteY="191dp" />
 
 </android.support.constraint.ConstraintLayout>
